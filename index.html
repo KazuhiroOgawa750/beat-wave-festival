@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEAT WAVE FESTIVAL 2027 | TOP</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="BEAT WAVE トップ">BEAT<span>WAVE</span><small>FESTIVAL 2027</small></a>
+      <nav aria-label="メインナビゲーション"><a class="active" href="index.html">HOME</a><a href="#lineup">LINEUP</a><a href="ticket.html">TICKETS</a></nav>
+      <div class="nav-jump"><label for="page-select">ページ移動</label><select id="page-select" aria-label="移動先のページ"><option value="" selected>ページを選択</option><option value="index.html">トップページ</option><option value="ticket.html">チケット料金</option></select></div>
+    </div>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner container"><p class="eyebrow">THE CITY'S BIGGEST SOUND EXPERIENCE</p><p class="hero-date">2027.08.21 SAT / 12:00 START</p><h1 id="hero-title">BEAT <em>WAVE</em><br>FESTIVAL <span>2027</span></h1><p class="hero-sub">音楽が街を揺らす、夏の一日。</p><a class="btn btn-pink" href="ticket.html">チケットをチェック <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="countdown-section section" aria-labelledby="countdown-heading"><div class="container narrow center"><p class="eyebrow">COUNTDOWN TO THE FESTIVAL</p><h2 id="countdown-heading">開幕まで、あと</h2><div class="countdown-grid" role="timer" aria-label="開幕までの残り時間"><div class="count-item"><strong id="count-days">--</strong><span>DAYS / 日</span></div><div class="count-item"><strong id="count-hours">--</strong><span>HOURS / 時間</span></div><div class="count-item"><strong id="count-minutes">--</strong><span>MIN / 分</span></div><div class="count-item"><strong id="count-seconds">--</strong><span>SEC / 秒</span></div></div><p id="countdown-status" class="hint">JavaScriptを実装するとカウントダウンが表示されます。</p></div></section>
+    <section id="lineup" class="section lineup-section" aria-labelledby="lineup-heading"><div class="container"><div class="section-heading"><div><p class="eyebrow">THE LINEUP</p><h2 id="lineup-heading">ARTISTS</h2></div><p>出演アーティストをチェックしよう。</p></div>
+    <div class="artist-layout"><div class="artist-image-frame"><img id="artist-image" src="images/artist1.svg" alt="NEON RHYTHMのアーティストビジュアル" width="960" height="720"><div class="artist-counter"><span id="artist-number">01</span> / 04</div></div><div class="artist-detail"><p class="eyebrow">FEATURED ARTIST</p><h3 id="artist-name">NEON RHYTHM</h3><p id="artist-description">エレクトロニックとヒップホップを融合させる架空のユニット。</p><div class="artist-controls"><button id="artist-prev" class="control-btn" type="button" aria-label="前のアーティストを表示">← 前へ</button><button id="artist-next" class="control-btn" type="button" aria-label="次のアーティストを表示">次へ →</button></div><p class="hint">ボタン操作・3秒ごとの自動切り替えをJavaScriptで実装します。</p></div></div></div></section>
+    <section class="section ticket-promo"><div class="container promo-inner"><div><p class="eyebrow">TICKETS ON SALE</p><h2>その瞬間を、会場で。</h2><p>一般・VIP・学生チケットを販売予定。料金シミュレーションはこちらから。</p></div><a class="btn btn-light" href="ticket.html">チケット料金を計算する ↗</a></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span>BEAT WAVE FESTIVAL 2027</span><span>© 2027 BEAT WAVE FESTIVAL. Fictional educational project.</span></div></footer>
+  <aside id="cookie-panel" class="cookie-panel" aria-labelledby="cookie-heading"><div><h2 id="cookie-heading">サイトのご利用について</h2><p>この演習サイトは、同意状況を保存するCookieの学習に使用します。外部への個人情報の送信は行いません。</p></div><button type="button" id="cookie-accept" class="btn btn-pink">同意する</button></aside>
+</body>
+</html>
